@@ -23,7 +23,9 @@ Input files to the scripts should be named and located in the following manner:
 * [SCRIPT LOCATION HERE]\getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt
 * [SCRIPT LOCATION HERE]\getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt
 
-Please make sure that PLYR package is installed as this script uses it.
+Please make sure that PLYR package is installed as this script uses it. Use: install.packages("plyr"); library(plyr) commands to add it. 
+
+To run use : source("run_analysis.R") 
 
 Code and variable explanation can be found in the CodeBook.md. 
 
